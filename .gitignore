@@ -205,3 +205,11 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Puff Trigger
+.env
+audio/*.wav
+logs/*.csv
+frontend/node_modules/
+frontend/dist/
+frontend/.svelte-kit/

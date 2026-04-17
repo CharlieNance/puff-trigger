@@ -1,0 +1,26 @@
+# Python runtime artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Virtual environment
+.venv/
+
+# Environment / secrets
+.env
+
+# Generated audio output
+audio/
+*.wav
+*.mp3
+*.flac
+*.ogg
+
+# Logs
+*.log
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
