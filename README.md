@@ -83,7 +83,7 @@ sudo raspi-config nonint do_serial 0  # enable UART
 
 Install system-level dependencies (one-time):
 ```bash
-sudo apt-get install -y python3-smbus i2c-tools libgpiod2
+sudo apt-get install -y python3-smbus i2c-tools libgpiod-dev
 ```
 
 Clone the repo and install:

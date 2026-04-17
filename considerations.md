@@ -59,7 +59,7 @@ This means CORS must be configured in FastAPI from day one.
 Use `pip install enviroplus` (Pimoroni now publishes to PyPI). Much cleaner for a FastAPI project. However, some system-level packages still need to be installed manually:
 
 ```bash
-sudo apt-get install -y python3-smbus i2c-tools libgpiod2
+sudo apt-get install -y python3-smbus i2c-tools libgpiod-dev
 ```
 
 Since I2C and UART are already enabled via `raspi-config`, this should be all that's needed beyond the `pip install`.

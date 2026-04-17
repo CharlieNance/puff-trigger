@@ -14,7 +14,7 @@ Puff Trigger is a Raspberry Pi Zero W project that detects air quality changes (
 | USB Speaker | Jieli UACDemoV1.0; ALSA card 1; volume 75%, persisted via `alsactl store` |
 | Powered USB Hub | Huasheng 3-port; required since Zero W OTG can't power the speaker alone |
 
-The `enviroplus` library is installed from PyPI (not git clone). System deps (`python3-smbus`, `i2c-tools`, `libgpiod2`) must be installed separately on the Pi.
+The `enviroplus` library is installed from PyPI (not git clone). System deps (`python3-smbus`, `i2c-tools`, `libgpiod-dev`) must be installed separately on the Pi.
 
 ## Architecture
 
